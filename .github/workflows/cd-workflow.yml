@@ -63,5 +63,6 @@ jobs:
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
+        registry: docker.pkg.github.com
         repository: irgmedeiros/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
